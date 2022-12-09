@@ -1,14 +1,9 @@
-# This is lecture 04
+# Waveform Generator
 
-## This is my trial edits
+This programme generates waveforms for given equations which prints the output waveform in Matlab and Octave.
 
-### level 03 header
+## Prerequisites
+MATLAB 
 
-Here is some text.
 
-* Item 1
-* Item 2
-* Item 3
-* $x = y+2'$
-    * wow some good stuff
 
