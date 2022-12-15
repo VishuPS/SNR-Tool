@@ -32,12 +32,12 @@ end
 
   signal_power = mean(abs(signal).^2)
   noise_power = mean(abs(noise).^2)
-  signal_energy = (abs(signal).^2)
-
 
   SNRValue = 10*log10(signal_power/noise_power); %SNR Calculation done in dB
 
 
-  BERValue =0.5*erfc(sqrt(signal_energy/noise_power))
+  signal_energy = (abs(signal).^2);
+
+  BERValue =0.5*erfc(sqrt(signal_energy/noise_power));
 
 endfunction
